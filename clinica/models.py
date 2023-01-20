@@ -25,7 +25,7 @@ class Agenda(models.Model):
         ("5", "11:00 ás 12:00"),)
     hora = models.CharField(max_length=10, choices=horario)
     def __str__(self):
-        return str(self.data)+self.medico.nome+self.hora
+        return str(self.data)+' - '+self.medico.nome+ ' - '+self.hora
 
 class Cliente(models.Model):
     nome = models.CharField(max_length=100)
