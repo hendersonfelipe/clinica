@@ -8,7 +8,7 @@ No que consite este projeto:
 ## Configurando o ambiente para executar a api.
 Faça o download deste repositório:
 ```
-$ git clone git@github.com:hendersonfelipe/clinica.git
+$ git clone https://github.com/hendersonfelipe/clinica.git
 ```
 Crie um ambiente virtual e instale a bibliotecas disponíveis no 
 arquivo requerimentes.txt
@@ -26,7 +26,7 @@ $ .\venv\Scripts\Activate
 
 Depois de ativado, instale as bibliotecas necessárias para executar o projeto:
 ```
- (venv)$ pip install -r requeriments.txt
+ (venv)$ pip install -r requirements.txt
 ```
 
 Para fazermos o primeiro acesso e poder configurar a aplicação, vamos executar o comando 
